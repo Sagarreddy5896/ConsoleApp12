@@ -11,11 +11,11 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-            Lengthhelper helpher = new Lengthhelper();
+            Lengthhelper sl = new Lengthhelper();
 
             string input = Console.ReadLine();
 
-            Console.WriteLine(helpher.findlength(input));
+            Console.WriteLine(sl.findlength(input));
         }
     }
 }
